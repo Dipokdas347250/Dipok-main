@@ -22,7 +22,7 @@
     "react-type-animation": "^3.2.0",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^4.1.10",
-    
+     "some-package": "^1.0.0"
   },
   
   "devDependencies": {
