@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face{
+    font-family: Edu SA Hand;
+    src: url(../src/assets/EduSAHand-Bold.ttf);
+}
+
+@import "tailwindcss";
+
+
+
+
+
+
+@theme {
+    --font-main: "Edu SA Hand", sans-serif;
+    --font-secondary: "Alumni Sans SC", sans-serif;
+    
+}
