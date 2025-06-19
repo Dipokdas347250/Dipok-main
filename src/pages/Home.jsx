@@ -5,6 +5,8 @@ import Service from '../components/Service'
 import Portfolio from '../components/Portfolio'
 import Bolg from '../components/Bolg'
 import Chat from '../components/Chat'
+import Exper from '../components/Exper'
+import Contact from '../components/Contact'
 
 
 const Home = () => {
@@ -14,8 +16,10 @@ const Home = () => {
     <About/>
     <Service/>
     <Portfolio/>
+    <Exper/>
     <Bolg/>
     <Chat/>
+    <Contact/>
    
     </>
   )
