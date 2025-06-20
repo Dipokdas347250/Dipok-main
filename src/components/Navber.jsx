@@ -1,10 +1,18 @@
 import React from 'react'
 import Container from './container/Container'
+import { useState } from "react";
+import { GiTireIronCross } from "react-icons/gi";
+import { AiOutlineMenu } from "react-icons/ai";
+
+
 
 const Navber = () => {
+
+   const [open, setOpen] = useState(false);
+  const links = ["Home", "About", "Services", "Portfolio", "Blog", "Contact"];
   return (
     <>
-      <nav className='bg-white shadow-md fixed w-full z-50 py-5'>
+      {/* <nav className='bg-white shadow-md fixed w-full z-50 py-5'>
 
         <Container>
             <div className="flex justify-between items-center ">
@@ -22,7 +30,46 @@ const Navber = () => {
             </div>
         </Container>
         
-      </nav>
+      </nav> */}
+
+
+        <nav className="w-full fixed top-0 left-0 z-50  backdrop-blur-sm shadow-md">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        {/* Logo */}
+        <div className="text-2xl font-bold ">MyPortfolio</div>
+
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex space-x-8  font-medium">
+          {links.map((link) => (
+            <li key={link}>
+              <a href={`#${link.toLowerCase()}`} className="hover:text-[#000] transition">
+                {link}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        {/* Mobile Menu Toggle */}
+        <div className="md:hidden">
+          <button onClick={() => setOpen(!open)}>
+            {open ? <GiTireIronCross size={28} /> : <AiOutlineMenu size={28} />}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {open && (
+        <ul className="md:hidden bg-white px-6 pb-4 space-y-4 text-gray-700 font-medium">
+          {links.map((link) => (
+            <li key={link}>
+              <a href={`#${link.toLowerCase()}`} onClick={() => setOpen(false)} className="block">
+                {link}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </nav>
     </>
   )
 }
