@@ -14,11 +14,11 @@ import { SiNextdotjs } from "react-icons/si";
 const Service = () => {
     return (
         <>
-            <section className='py-20 ' id='services'>
+            <section className='py-20 px-3 ' id='services'>
                 <Container>
                     <div className="relative">
-                        <h1 className='text-9xl font-bold text-center opacity-10'>SERVICES</h1>
-                        <h2 className='absolute top-[40px] left-[50%] translate-x-[-50%] text-6xl font-main underline text-[#3BB9FF] '><span className='text-[#000]'>My</span> Services</h2>
+                        <h1 className='lg:text-9xl text-7xl font-bold text-center opacity-10'>SERVICES</h1>
+                        <h2 className='absolute lg:top-[40px] top-[25px] left-[50%] translate-x-[-50%] lg:text-6xl  text-2xl font-main underline text-[#3BB9FF] '><span className='text-[#000]'>My</span> Services</h2>
                     </div>
                     <div className="mt-8">
                         <h2 className='text-2xl font-main font-bold text-[#000]'>My <span className='text-[#3BB9FF]'>Special Service</span> For your Business Development</h2>

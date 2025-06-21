@@ -3,6 +3,7 @@ import Container from './container/Container'
 import { useState } from "react";
 import { GiTireIronCross } from "react-icons/gi";
 import { AiOutlineMenu } from "react-icons/ai";
+import dipok from "../assets/06.jpg";
 
 
 
@@ -34,9 +35,13 @@ const Navber = () => {
 
 
         <nav className="w-full fixed top-0 left-0 z-50  backdrop-blur-sm shadow-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <Container>
+        <div className=" mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <div className="text-2xl font-bold ">MyPortfolio</div>
+        <div className="flex items-center space-x-4">
+          <img src={dipok} className='lg:w-[80px] w-[50px] lg:h-[80px] h-[50px] rounded-full' alt="" />
+          <div className="text-2xl font-bold font-main ">Dipok das</div>
+        </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8  font-medium">
@@ -69,6 +74,7 @@ const Navber = () => {
           ))}
         </ul>
       )}
+      </Container>
     </nav>
     </>
   )

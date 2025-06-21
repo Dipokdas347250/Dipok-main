@@ -8,7 +8,7 @@ import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 const Contact = () => {
     return (
         <>
-            <section id="contact" className="relative z-10 py-24 px-6 md:px-12 lg:px-32 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white overflow-hidden">
+            <section id="contact" className="relative z-10 lg:py-24 py-16 px-3 md:px-12 lg:px-32 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white overflow-hidden">
                 <Container>
                     <div className="max-w-9xl mx-auto">
                         <div className="text-center mb-16">
@@ -16,10 +16,11 @@ const Contact = () => {
                             <p className=" text-xl font-extrabold font-main">Let's build something amazing together. Drop a message!</p>
                         </div>
 
-                        <div className="relative z-10 grid md:grid-cols-2 gap-12 bg-white/5 backdrop-blur-lg rounded-3xl p-10 shadow-2xl border border-white/10">
+                        <div className="relative z-10 lg:flex justify-between  gap-12 bg-white/5 backdrop-blur-lg rounded-3xl lg:p-10 p-3 shadow-2xl border border-white/10">
 
                             {/* 👤 Contact Info */}
-                            <div className="space-y-6">
+                            <div className="lg:w-[50%] w-full mb-10 lg:mb-0">
+                                <div className="space-y-6">
                                 <div className="flex items-center gap-4">
                                     <div className="">
                                         <MdAttachEmail className="text-2xl text-blue-400" />
@@ -52,9 +53,11 @@ const Contact = () => {
                                     <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://x.com/DipakDas19940?t=1__0t9nOT8WTK0xEh-yIwA&s=07" target='blank'><FaTwitter /></a>
                                </div>
                             </div>
+                            </div>
 
                             {/* ✍️ Contact Form */}
-                            <form className="space-y-8">
+                           <div className="lg:w-[50%] w-full">
+                             <form className="space-y-8">
                                 {/* Floating input style */}
                                 <div className="relative">
                                     <input type="text" id="name" name="name" placeholder=" " className="peer w-full px-4 py-3 text-white bg-transparent border-b border-gray-500 focus:border-blue-500 focus:outline-none" required />
@@ -81,6 +84,7 @@ const Contact = () => {
                                     Send Message
                                 </button>
                             </form>
+                           </div>
                         </div>
                     </div>
 

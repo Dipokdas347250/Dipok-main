@@ -6,11 +6,11 @@ import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter, } from "react-
 const Banner = () => {
   return (
     <>
-      <section className='py-65  ' id='home'>
+      <section className='2xl:py-65 py-44 xl:py-44 px-3    ' id='home'>
         <Container>
           <div className="flex flex-col items-center justify-center text-center">
-            <h1 className='text-6xl font-bold font-main mb-4'><span className='text-[#3BB9FF]'>Hello,</span> I'm Dipok Chandra Das</h1>
-            <p className='text-2xl  mb-10 w-[60%] mt-10 font-main'>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highlyfunctional websites.</p>
+            <h1 className='lg:text-6xl text-4xl font-bold font-main mb-4'><span className='text-[#3BB9FF]'>Hello,</span> I'm Dipok Chandra Das</h1>
+            <p className='lg:text-2xl text-[16px]  lg:mb-10 mb-4 lg:w-[60%] w-full lg:mt-10 font-main'>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highlyfunctional websites.</p>
             <div>
               <div className="mb-10">
                 <TypeAnimation
@@ -34,7 +34,7 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="flex lg:gap-x-10 gap-x-5 mb-10">
+            <div className="flex lg:gap-x-10 gap-x-5 lg:mb-10">
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>

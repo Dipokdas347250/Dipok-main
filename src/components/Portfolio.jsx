@@ -33,7 +33,7 @@ import gk from "../assets/gk.png";
 function SampleNextArrow(props) {
     const {  onClick } = props;
     return (
-      <div className=" absolute h-[40px] w-[40px] bg-amber-500 rounded-full  text-[#fff] top-[50%] translate-y-[-50%] right-[-20px] cursor-pointer z-50 duration-300 ease-in-out  hover:bg-black" onClick={onClick}>
+      <div className=" absolute h-[40px] w-[40px] bg-amber-500 rounded-full  text-[#fff] top-[50%] translate-y-[-50%] 2xl:right-[-20px] right-[-10px]  cursor-pointer z-50 duration-300 ease-in-out  hover:bg-black" onClick={onClick}>
       <FaArrowRight className=' absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]' />
      </div>
     );
@@ -42,7 +42,7 @@ function SampleNextArrow(props) {
   function SamplePrevArrow(props) {
     const {  onClick } = props;
     return (
-      <div className=" absolute h-[40px] w-[40px] bg-amber-500 rounded-full  text-[#fff] top-[50%] translate-y-[-50%] left-[-20px] cursor-pointer z-50 duration-300 ease-in-out  hover:bg-black" onClick={onClick}>
+      <div className=" absolute h-[40px] w-[40px] bg-amber-500 rounded-full  text-[#fff] top-[50%] translate-y-[-50%] 2xl:left-[-20px] left-[-10px]  cursor-pointer z-50 duration-300 ease-in-out  hover:bg-black" onClick={onClick}>
        <FaArrowLeft className=' absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]' />
       </div>
      
@@ -91,40 +91,40 @@ const Portfolio = () => {
   };
     return (
         <>
-            <section className='py-20 ' id='portfolio'>
+            <section className='py-20 px-3 ' id='portfolio'>
                 <Container>
                     <div className="relative">
-                        <h1 className='  text-9xl font-bold text-center opacity-10'>WORKS</h1>
-                        <h2 className=' absolute top-[40px] left-[50%] translate-x-[-50%] text-6xl font-main underline text-[#3BB9FF] '><span className='text-[#000]'>My</span> Portfolio</h2>
+                        <h1 className='  lg:text-9xl text-7xl font-bold text-center opacity-10'>WORKS</h1>
+                        <h2 className=' absolute lg:top-[40px] top-[25px] left-[50%] translate-x-[-50%] lg:text-6xl text-2xl font-main underline text-[#3BB9FF] '><span className='text-[#000]'>My</span> Portfolio</h2>
                         <p className="text-center mt-7 font-medium font-main text-2xl">Here are some of my recent projects.</p>
 
                     </div>
                     <div className="">
 
                         <Tabs>
-                            <TabList className="flex justify-center gap-4 mt-10 border-b-2 border-[#3BB9FF] pb-0.5">
+                            <TabList className="lg:flex grid grid-cols-2 justify-center gap-4 mt-10 border-b-2 border-[#3BB9FF] pb-0.5">
                                 <Tab
                                     selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 px-14 bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main text-xl cursor-pointer transition"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     E-Commerce
                                 </Tab>
                                 <Tab
                                     selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 px-14 bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main text-xl cursor-pointer transition"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Lending Page
                                 </Tab>
                                 <Tab
                                     selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 px-14 bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main text-xl cursor-pointer transition"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Business
 
                                 </Tab>
                                 <Tab
                                     selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 px-14 bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main text-xl cursor-pointer transition"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Webflow
                                 </Tab>
