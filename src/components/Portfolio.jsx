@@ -104,27 +104,27 @@ const Portfolio = () => {
                         <Tabs>
                             <TabList className="lg:flex grid grid-cols-2 justify-center gap-4 mt-10 border-b-2 border-[#3BB9FF] pb-0.5">
                                 <Tab
-                                    selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
+                                    selectedClassName="  text-white"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#000] hover:scale-105 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     E-Commerce
                                 </Tab>
                                 <Tab
-                                    selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
+                                    selectedClassName=" text-white"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#000] hover:scale-105 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Lending Page
                                 </Tab>
                                 <Tab
-                                    selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
+                                    selectedClassName=" text-white"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#000] hover:scale-105 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Business
 
                                 </Tab>
                                 <Tab
-                                    selectedClassName="bg-amber-400 text-white"
-                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#3BB9FF] hover:bg-amber-500 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
+                                    selectedClassName=" text-white"
+                                    className="py-6 lg:px-14 text-center bg-[#3BB9FF] border-2 border-[#000] hover:scale-105 rounded-t-3xl font-medium font-main lg:text-xl text-sm cursor-pointer transition"
                                 >
                                     Webflow
                                 </Tab>

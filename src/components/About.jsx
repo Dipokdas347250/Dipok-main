@@ -68,25 +68,25 @@ const About = () => {
           </div>
           <div className="lg:flex lg:flex-row flex-col justify-between lg:gap-x-5 gap-x-0 lg:gap-y-0 gap-y-10 lg:space-y-0 space-y-5 mt-[50px]">
             <div className="lg:w-[25%] w-full">
-              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-white shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
+              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-[#fff] shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
                 <h2 className='text-7xl font-secondary text-[#3BB9FF]'>02+</h2>
                 <p className='text-xl 2xl:text-xl lg:text-[12px] text-gray-600 mb-10 w-[80%] mt-5 font-main'>YEARS OF EXPERIENCE</p>
               </div>
             </div>
             <div className="lg:w-[25%] w-full">
-              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-white shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
+              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-[#fff] shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
                 <h2 className='text-7xl font-secondary text-[#3BB9FF]'>30+</h2>
                 <p className='text-xl 2xl:text-xl lg:text-[12px] text-gray-600 mb-10 w-[80%] mt-5 font-main'>COMPLETED PROJECTS</p>
               </div>
             </div>
             <div className="lg:w-[25%] w-full">
-              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-white shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105 ">
+              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-[#fff] shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105 ">
                 <h2 className='text-7xl font-secondary text-[#3BB9FF]'>20+</h2>
                 <p className='text-xl 2xl:text-xl lg:text-[12px] text-gray-600 mb-10 w-[80%] mt-5 font-main'>HAPPY CUSTOMERS IN PROJECT</p>
               </div>
             </div>
             <div className="lg:w-[25%] w-full">
-              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-white shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
+              <div className="pt-5 pb-3 px-5 border-2 border-[#3BB9FF] rounded-xl bg-[#fff] shadow-lg shadow-[#3BB9FF]/50 duration-300 ease-in-out hover:rotate-2 hover:scale-105">
                 <h2 className='text-7xl font-secondary text-[#3BB9FF]'>04+</h2>
                 <p className='text-xl 2xl:text-xl lg:text-[12px] text-gray-600 mb-10 w-[80%] mt-5 font-main'>FIVE STAR RATINGS ON PROJECTS</p>
               </div>
