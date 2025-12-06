@@ -1,11 +1,28 @@
 import React from 'react'
 import Container from './container/Container'
-import Dipok from "../assets/Dipok0.jpg"
+// import Dipok from "../assets/Dipok0.jpg"
+import Das from "../assets/das.jpg"
 import { FaDownload } from "react-icons/fa6";
+import { saveAs } from 'file-saver';
+import cv from '../assets/Dipok Cv Resume.pdf'
 
 
 
 const About = () => {
+  
+  const handleDownload = () => {
+    // URL of the CV file
+    // const cvUrl = '.Dipok Cv Resume.pdf'; // Replace with the actual path to your CV file
+    // // Create a temporary anchor element to trigger the download
+    // const link = document.createElement('a');
+    // link.href = cvUrl;
+    // link.download = './Dipok Cv Resume.pdf'; // Specify the download file name
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    saveAs(cv, 'Dipok Cv Resume.pdf');
+  };
+
   return (
     <>
       <section className='lg:py-20 px-3  ' id='about'>
@@ -17,7 +34,7 @@ const About = () => {
           </div>
           <div className=" lg:flex lg:flex-row   justify-between lg:gap-x-20 gap-x-0 lg:gap-y-0 gap-y-10 mt-[50px]">
             <div className="lg:w-[30%] w-full">
-              <img className='lg:w-[90%] w-full rounded-3xl fill-cyan-500 drop-shadow-2xl drop-shadow-cyan-500/50' src={Dipok} alt="" />
+              <img className='lg:w-[90%] w-full rounded-3xl fill-cyan-500 drop-shadow-2xl drop-shadow-cyan-500/50' src={Das} alt="" />
             </div>
             <div className="lg:w-[70%] w-full lg:mt-0 mt-10">
               <h2 className=' text-2xl font-main font-bold underline'>PERSONAL INFOS</h2>
@@ -92,11 +109,13 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="group flex justify-around items-center mt-14 py-5 px-10 border-2 border-[#3BB9FF] rounded-xl duration-300 ease-in-out hover:scale-105 xl:w-[20%] lg:w-[30%] w-[80%]  m-auto relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
+          <div className="group flex justify-around items-center mt-14 py-5 px-10 border-2 border-[#3BB9FF] rounded-xl duration-300 ease-in-out cursor-pointer hover:scale-105 xl:w-[20%] lg:w-[30%] w-[80%]  m-auto relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
 
             <FaDownload className="text-[#3BB9FF] font-semibold text-xl font-main group-hover:text-[#fff] transition duration-300 relative z-10" />
 
-            <a href="" className="   font-semibold text-xl font-main group-hover:text-[#fff] transition duration-300 relative z-10">
+              {/* <button className='font-semibold text-xl font-main group-hover:text-[#fff] transition duration-300 relative z-10'>Download cv</button> */}
+
+            <a onClick={handleDownload} className="font-semibold text-xl font-main group-hover:text-[#fff] transition duration-300 relative z-10">
               Download CV
             </a>
 

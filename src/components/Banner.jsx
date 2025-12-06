@@ -6,7 +6,7 @@ import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter, } from "react-
 const Banner = () => {
   return (
     <>
-      <section className='2xl:py-65 py-44 xl:py-44 px-3    ' id='home'>
+      <section className='2xl:py-65 py-44 xl:py-44 px-3 ' id='home'>
         <Container>
           <div className="flex flex-col items-center justify-center text-center">
             <h1 className='lg:text-6xl text-4xl font-bold font-main mb-4'><span className='text-[#3BB9FF]'>Hello,</span> I'm Dipok Chandra Das</h1>
