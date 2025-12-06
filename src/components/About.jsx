@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './container/Container'
 // import Dipok from "../assets/Dipok0.jpg"
-import Das from "../assets/das.jpg"
+// import Das from "../assets/das.jpg"
 import { FaDownload } from "react-icons/fa6";
 import { saveAs } from 'file-saver';
 import cv from '../assets/Dipok Cv Resume.pdf'
@@ -34,7 +34,7 @@ const About = () => {
           </div>
           <div className=" lg:flex lg:flex-row   justify-between lg:gap-x-20 gap-x-0 lg:gap-y-0 gap-y-10 mt-[50px]">
             <div className="lg:w-[30%] w-full">
-              <img className='lg:w-[90%] w-full rounded-3xl fill-cyan-500 drop-shadow-2xl drop-shadow-cyan-500/50' src={Das} alt="" />
+              <img className='lg:w-[90%] w-full rounded-3xl fill-cyan-500 drop-shadow-2xl drop-shadow-cyan-500/50' src="das.jpg" alt="" />
             </div>
             <div className="lg:w-[70%] w-full lg:mt-0 mt-10">
               <h2 className=' text-2xl font-main font-bold underline'>PERSONAL INFOS</h2>
