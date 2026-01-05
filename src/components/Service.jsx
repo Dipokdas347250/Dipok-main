@@ -14,6 +14,7 @@ import { SiNextdotjs } from "react-icons/si";
 const Service = () => {
     return (
         <>
+        
             <section className='py-20 px-3 ' id='services'>
                 <Container>
                     <div className="relative">
@@ -57,7 +58,7 @@ const Service = () => {
                     <div className="mt-20">
                         <h2 className='text-3xl font-main underline  text-center'>My Skills</h2>
                     </div>
-                    <div className="lg:flex justify-around">
+                    <div  className="lg:flex justify-around">
                         <div className="lg:w-[45%] w-full mt-10">
                             <div className=" flex justify-between items-center px-5">
                                 <div className="flex items-center gap-x-3">
