@@ -36,11 +36,11 @@ const Navber = () => {
 
         <nav className="w-full fixed top-0 left-0 z-50  backdrop-blur-sm shadow-md">
       <Container>
-        <div className=" mx-auto flex items-center  justify-between px-6 py-4">
+        <div className=" mx-auto flex items-center  justify-between px-6 py-2">
         {/* Logo */}
         <div className="flex items-center space-x-4">
-          <img src={dipok} className='lg:w-[80px] w-[50px] lg:h-[80px] h-[50px] rounded-full' alt="" />
-          <div className="text-2xl font-bold font-main ">Dipok das</div>
+          <img src={dipok} className='lg:w-[40px] w-[50px] lg:h-[40px] h-[50px] rounded-full' alt="" />
+          <div className="text-xl font-bold font-main ">Dipok das</div>
         </div>
 
         {/* Desktop Menu */}
@@ -52,10 +52,10 @@ const Navber = () => {
               </a>
             </li>
           ))}
-           <div className="group   py-3 px-8 border-2 border-[#3BB9FF] rounded-xl duration-300 ease-in-out hover:scale-105  relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
+           <div className="group   py-2 px-5 border border-[#3BB9FF] rounded-xl duration-300 ease-in-out hover:scale-105  relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
           
           
-                      <a href="" className=" text-center  font-semibold text-xl font-main group-hover:text-[#fff] transition duration-300 relative z-10">
+                      <a href="" className=" text-center  font-semibold text-lg font-main group-hover:text-[#fff] transition duration-300 relative z-10">
                         Contact
                       </a>
           

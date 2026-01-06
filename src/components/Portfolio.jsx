@@ -28,6 +28,7 @@ import oma from "../assets/oma.png";
 import unr from "../assets/unr.png";
 import dos from "../assets/dos.png";
 import gk from "../assets/gk.png";
+import soft from "../assets/soft.png";
 
 
 function SampleNextArrow(props) {
@@ -189,6 +190,24 @@ const Portfolio = () => {
                                         {/* Example project cards */}
                                         <div className="  bg-[#3BB9FF] rounded-lg  p-5 border-2 border-[#000] shadow-xl  duration-500 ease-in-out  hover:scale-105    px-5 w-full   relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-0 after:w-full after:bg-[#3BB9FF] after:opacity-70  after:duration-300 after:ease-in-out hover:after:h-full cursor-pointer ">
                                             <div className="absolute top-0 left-0 flex justify-center items-center    h-full w-full  opacity-0 hover:opacity-100 duration-300 ease-in-out z-50 text-black font-serif">
+                                                <a href="https://shophub000.netlify.app/" target='blank' className=' bg-[#fff] border-2 border-[#000]   text-[#000] px-6 py-4  rounded-lg  duration-300 ease-in-out cursor-pointer hover:bg-[#3BB9FF] hover:text-[#fff] '> Live Site</a>
+                                            </div>
+                                            <h2 className='text-center font-medium font-main text-xl mb-4 underline '>SHOPhub Agency</h2>
+                                            <img className='h-[300px] w-full rounded-t-2xl' src={shop} alt="" />
+                                            <p className='  font-extralight font-main text-[14px] mt-4'>Shophub is a stylish agency website built with React and Tailwindcss. It features clean design and comprehensive service details.</p>
+
+                                        </div>
+                                        <div className="  bg-[#3BB9FF] rounded-lg  p-5 border-2 border-[#000] shadow-xl  duration-500 ease-in-out  hover:scale-105    px-5 w-full   relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-0 after:w-full after:bg-[#3BB9FF] after:opacity-70  after:duration-300 after:ease-in-out hover:after:h-full cursor-pointer ">
+                                            <div className="absolute top-0 left-0 flex justify-center items-center    h-full w-full  opacity-0 hover:opacity-100 duration-300 ease-in-out z-50 text-black font-serif">
+                                                <a href="https://nesceni.vercel.app/" target='blank' className=' bg-[#fff] border-2 border-[#000]   text-[#000] px-6 py-4  rounded-lg  duration-300 ease-in-out cursor-pointer hover:bg-[#3BB9FF] hover:text-[#fff] '> Live Site</a>
+                                            </div>
+                                            <h2 className='text-center font-medium font-main text-xl mb-4 underline '>Soft Vio IT</h2>
+                                            <img className='h-[300px] w-full rounded-t-2xl' src={soft} alt="" />
+                                            <p className='  font-extralight font-main text-[14px] mt-4'>Soft Vio IT is a modern technology agency platform built with React and Tailwind CSS. It delivers a clean, elegant interface with well-structured service offerings, optimized performance, and a seamless user experience.</p>
+
+                                        </div>
+                                        <div className="  bg-[#3BB9FF] rounded-lg  p-5 border-2 border-[#000] shadow-xl  duration-500 ease-in-out  hover:scale-105    px-5 w-full   relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-0 after:w-full after:bg-[#3BB9FF] after:opacity-70  after:duration-300 after:ease-in-out hover:after:h-full cursor-pointer ">
+                                            <div className="absolute top-0 left-0 flex justify-center items-center    h-full w-full  opacity-0 hover:opacity-100 duration-300 ease-in-out z-50 text-black font-serif">
                                                 <a href="https://wondrous-yeot-05ac40.netlify.app/" target='blank' className=' bg-[#fff] border-2 border-[#000]   text-[#000] px-6 py-4  rounded-lg  duration-300 ease-in-out cursor-pointer hover:bg-[#3BB9FF] hover:text-[#fff] '> Live Site</a>
                                             </div>
                                             <h2 className='text-center font-medium font-main text-xl mb-4 underline '>Emprise Landing Page</h2>
@@ -209,15 +228,7 @@ const Portfolio = () => {
                                         </div>
 
 
-                                        <div className="  bg-[#3BB9FF] rounded-lg  p-5 border-2 border-[#000] shadow-xl  duration-500 ease-in-out  hover:scale-105    px-5 w-full   relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-0 after:w-full after:bg-[#3BB9FF] after:opacity-70  after:duration-300 after:ease-in-out hover:after:h-full cursor-pointer ">
-                                            <div className="absolute top-0 left-0 flex justify-center items-center    h-full w-full  opacity-0 hover:opacity-100 duration-300 ease-in-out z-50 text-black font-serif">
-                                                <a href="https://shophub000.netlify.app/" target='blank' className=' bg-[#fff] border-2 border-[#000]   text-[#000] px-6 py-4  rounded-lg  duration-300 ease-in-out cursor-pointer hover:bg-[#3BB9FF] hover:text-[#fff] '> Live Site</a>
-                                            </div>
-                                            <h2 className='text-center font-medium font-main text-xl mb-4 underline '>SHOPhub Agency</h2>
-                                            <img className='h-[300px] w-full rounded-t-2xl' src={shop} alt="" />
-                                            <p className='  font-extralight font-main text-[14px] mt-4'>Shophub is a stylish agency website built with React and Tailwindcss. It features clean design and comprehensive service details.</p>
-
-                                        </div>
+                                        
                                        
 
                                     </div>
