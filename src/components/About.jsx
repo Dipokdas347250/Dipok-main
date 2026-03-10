@@ -4,7 +4,7 @@ import Container from './container/Container'
 // import Das from "../assets/das.jpg"
 import { FaDownload } from "react-icons/fa6";
 import { saveAs } from 'file-saver';
-import cv from '../assets/Dipok Cv Resume.pdf'
+import cv from '../assets/Dipok Chandra Das.pdf'
 
 
 
@@ -21,7 +21,7 @@ const About = () => {
     // document.body.appendChild(link);
     // link.click();
     // document.body.removeChild(link);
-    saveAs(cv, 'Dipok Cv Resume.pdf');
+    saveAs(cv, 'Dipok Chandra Das.pdf');
   };
 
   return (
