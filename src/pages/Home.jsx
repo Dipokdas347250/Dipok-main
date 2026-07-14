@@ -3,10 +3,10 @@ import Banner from '../components/Banner'
 import About from '../components/About'
 import Service from '../components/Service'
 import Portfolio from '../components/Portfolio'
-import Bolg from '../components/Bolg'
 import Chat from '../components/Chat'
 import Exper from '../components/Exper'
 import Contact from '../components/Contact'
+import Blog from '../components/Blog'
 
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
     <Service/>
     <Portfolio/>
     <Exper/>
-    {/* <Bolg/> */}
+   <Blog/>
     <Chat/>
     <Contact/>
    
