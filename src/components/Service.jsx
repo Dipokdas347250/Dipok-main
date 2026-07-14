@@ -2,9 +2,11 @@ import React from 'react'
 import Container from './container/Container'
 import FA from "../assets/fig.webp"
 import { IoLogoHtml5 } from "react-icons/io";
-import { FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaFigma , FaGithubSquare} from "react-icons/fa";
+import { FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaFigma, FaGithubSquare } from "react-icons/fa";
 import { SiTailwindcss, SiWebflow } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb ,SiTypescript} from "react-icons/si";
 
 
 
@@ -14,7 +16,7 @@ import { SiNextdotjs } from "react-icons/si";
 const Service = () => {
     return (
         <>
-        
+
             <section className='py-20 px-3 ' id='services'>
                 <Container>
                     <div className="relative">
@@ -54,11 +56,39 @@ const Service = () => {
                             <p className='text-gray-600 font-main font-light text-[18px]'>We create fast, responsive, and SEO-optimized websites using the power of Webflow.</p>
                         </div>
                     </div>
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-[50px]">
+                        <div className="bg-white border-2 border-[#3BB9FF] shadow-[#3BB9FF]/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                            <h3 className='text-2xl font-bold font-main text-[#3BB9FF] mb-4'>
+                                MERN Stack Development
+                            </h3>
+                            <p className='text-gray-600 font-main font-light text-[18px]'>
+                                Building complete full-stack web applications using MongoDB, Express.js, React.js, and Node.js.
+                            </p>
+                        </div>
+
+                        <div className="bg-white border-2 border-[#3BB9FF] shadow-[#3BB9FF]/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                            <h3 className='text-2xl font-bold font-main text-[#3BB9FF] mb-4'>
+                                REST API Development
+                            </h3>
+                            <p className='text-gray-600 font-main font-light text-[18px]'>
+                                Creating secure, scalable, and high-performance RESTful APIs using Node.js and Express.js.
+                            </p>
+                        </div>
+
+                        <div className="bg-white border-2 border-[#3BB9FF] shadow-[#3BB9FF]/50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                            <h3 className='text-2xl font-bold font-main text-[#3BB9FF] mb-4'>
+                                Database Design & Management
+                            </h3>
+                            <p className='text-gray-600 font-main font-light text-[18px]'>
+                                Designing and managing MongoDB databases with optimized schema structures and performance.
+                            </p>
+                        </div>
+                    </div>
 
                     <div className="mt-20">
                         <h2 className='text-3xl font-main underline  text-center'>My Skills</h2>
                     </div>
-                    <div  className="lg:flex justify-around">
+                    <div className="lg:flex justify-around">
                         <div className="lg:w-[45%] w-full mt-10">
                             <div className=" flex justify-between items-center px-5">
                                 <div className="flex items-center gap-x-3">
@@ -79,7 +109,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <FaCss3Alt className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">Css</h2>
+                                    <h2 className=" text-[18px] font-semibold">Css</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">80%</h3>
                             </div>
@@ -113,7 +143,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <FaJsSquare className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">Javascript</h2>
+                                    <h2 className=" text-[18px] font-semibold">Javascript</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">65%</h3>
                             </div>
@@ -131,7 +161,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <SiNextdotjs className='text-[30px] text-[#3BB9FF]' />
-                                <div className=" text-[18px] font-semibold">Next JS</div>
+                                    <div className=" text-[18px] font-semibold">Next JS</div>
                                 </div>
                                 <div className="text-[18px] font-semibold">60%</div>
                             </div>
@@ -147,7 +177,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <FaBootstrap className='text-[30px] text-[#3BB9FF]' />
-                                <div className=" text-[18px] font-semibold">Bootstrap 5</div>
+                                    <div className=" text-[18px] font-semibold">Bootstrap 5</div>
                                 </div>
                                 <div className="text-[18px] font-semibold">70%</div>
                             </div>
@@ -159,14 +189,14 @@ const Service = () => {
 
                             </div>
                         </div>
-                        
+
                     </div>
                     <div className="lg:flex justify-around">
                         <div className="lg:w-[45%] w-full mt-10">
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <FaReact className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">React js</h2>
+                                    <h2 className=" text-[18px] font-semibold">React js</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">70%</h3>
                             </div>
@@ -182,7 +212,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <SiTailwindcss className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">Tailwind css</h2>
+                                    <h2 className=" text-[18px] font-semibold">Tailwind css</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">80%</h3>
                             </div>
@@ -194,14 +224,14 @@ const Service = () => {
 
                             </div>
                         </div>
-                        
+
                     </div>
                     <div className="lg:flex justify-around">
                         <div className="lg:w-[45%] w-full mt-10">
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <SiWebflow className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">Webflow</h2>
+                                    <h2 className=" text-[18px] font-semibold">Webflow</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">70%</h3>
                             </div>
@@ -217,7 +247,7 @@ const Service = () => {
                             <div className=" flex justify-between px-5">
                                 <div className="flex items-center gap-x-3">
                                     <FaGithubSquare className='text-[30px] text-[#3BB9FF]' />
-                                <h2 className=" text-[18px] font-semibold">Github</h2>
+                                    <h2 className=" text-[18px] font-semibold">Github</h2>
                                 </div>
                                 <h3 className="text-[18px] font-semibold">80%</h3>
                             </div>
@@ -229,10 +259,83 @@ const Service = () => {
 
                             </div>
                         </div>
-                       
-                        
+
+
                     </div>
-                   
+                    <div className="lg:flex justify-around">
+                        <div className="lg:w-[45%] w-full mt-10">
+                            <div className=" flex justify-between px-5">
+                                <div className="flex items-center gap-x-3">
+                                    <FaNodeJs className='text-[30px] text-[#3BB9FF]' />
+                                    <h2 className=" text-[18px] font-semibold">Node.js</h2>
+                                </div>
+                                <h3 className="text-[18px] font-semibold">65%</h3>
+                            </div>
+                            <div className="h-[35px] w-[100%] border-[7px] border-[#000] text-center rounded-full  relative ">
+                                <div className="after:absolute after:contain-['']  after:h-[100%] after:w-[65%] after:top-0 after:left-0  after:rounded-full after:border-[10px] after:border-[#3BB9FF] ">
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="lg:w-[45%] w-full mt-10">
+                            <div className=" flex justify-between px-5">
+                                <div className="flex items-center gap-x-3">
+                                    <SiExpress className='text-[30px] text-[#3BB9FF]' />
+                                    <h2 className=" text-[18px] font-semibold">Express.js</h2>
+                                </div>
+                                <h3 className="text-[18px] font-semibold">70%</h3>
+                            </div>
+                            <div className="h-[35px] w-[100%] border-[7px] border-[#000] text-center rounded-full  relative ">
+                                <div className="after:absolute after:contain-['']  after:h-[100%] after:w-[70%] after:top-0 after:left-0  after:rounded-full after:border-[10px] after:border-[#3BB9FF] ">
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div className="lg:flex justify-around">
+                        <div className="lg:w-[45%] w-full mt-10">
+                            <div className=" flex justify-between px-5">
+                                <div className="flex items-center gap-x-3">
+                                    <SiMongodb className='text-[30px] text-[#3BB9FF]' />
+                                    <h2 className=" text-[18px] font-semibold">MongoDB</h2>
+                                </div>
+                                <h3 className="text-[18px] font-semibold">80%</h3>
+                            </div>
+                            <div className="h-[35px] w-[100%] border-[7px] border-[#000] text-center rounded-full  relative ">
+                                <div className="after:absolute after:contain-['']  after:h-[100%] after:w-[80%] after:top-0 after:left-0  after:rounded-full after:border-[10px] after:border-[#3BB9FF] ">
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="lg:w-[45%] w-full mt-10">
+                            <div className=" flex justify-between px-5">
+                                <div className="flex items-center gap-x-3">
+                                    <SiTypescript className='text-[30px] text-[#3BB9FF]' />
+                                    <h2 className=" text-[18px] font-semibold">Typescript</h2>
+                                </div>
+                                <h3 className="text-[18px] font-semibold">60%</h3>
+                            </div>
+                            <div className="h-[35px] w-[100%] border-[7px] border-[#000] text-center rounded-full  relative ">
+                                <div className="after:absolute after:contain-['']  after:h-[100%] after:w-[60%] after:top-0 after:left-0  after:rounded-full after:border-[10px] after:border-[#3BB9FF] ">
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                  
+
 
                 </Container>
             </section>
