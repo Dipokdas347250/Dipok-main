@@ -34,7 +34,7 @@ const Banner = () => {
     <section className="2xl:py-65 py-44 xl:py-44 px-3" id="home">
       <Container>
         <div className="flex flex-col items-center justify-center text-center">
-          
+
           {/* Animated Heading */}
           <h1 className="lg:text-6xl text-4xl font-bold font-main mb-4">
             <span ref={helloRef} className="text-[#3BB9FF] inline-block mr-2">
@@ -60,16 +60,24 @@ const Banner = () => {
           <div className="mb-10">
             <TypeAnimation
               sequence={[
-                1000,
-                "Front-end Developer With React",
+                500,
+                "MERN Stack Developer",
                 3000,
-                "Front-end Developer With Tailwind CSS",
+                "Frontend Developer with React.js",
                 3000,
-                "Front-end Developer With Next.js",
+                "Frontend Developer with Next.js",
                 3000,
-                "Front-end Developer With JavaScript",
+                "Backend Developer with Node.js",
                 3000,
-                "Front-end Developer With Webflow",
+                "Backend Developer with Express.js",
+                3000,
+                "Database Developer with MongoDB",
+                3000,
+                "REST API Developer",
+                3000,
+                "Webflow CMS Developer",
+                3000,
+                "JavaScript & TypeScript Developer",
               ]}
               speed={50}
               repeat={Infinity}
@@ -84,11 +92,11 @@ const Banner = () => {
 
           {/* Social Icons */}
           <div className="flex lg:gap-x-10 gap-x-5 lg:mb-10">
-                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
-                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
-                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
-                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://x.com/DipakDas19940?t=1__0t9nOT8WTK0xEh-yIwA&s=07" target='blank'><FaTwitter /></a>
-                 </div>
+            <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
+            <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
+            <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
+            <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] p-[14px]  fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 duration-300 ease-in-out hover:scale-120' href="https://x.com/DipakDas19940?t=1__0t9nOT8WTK0xEh-yIwA&s=07" target='blank'><FaTwitter /></a>
+          </div>
 
         </div>
       </Container>
