@@ -76,7 +76,7 @@ const About = () => {
 
               </div>
               <div className="">
-                <p className='text-xl  mb-10 lg:w-[80%] w-full mt-10 font-main'>I am Dipok das . Front-end Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me.</p>
+                <p className='text-xl  mb-10 w-full mt-10 font-main'>MERN Stack Developer with 2+ years of experience in building scalable and high-performance web applications using React, Next.js, Node.js, and Express.js. Proficient in developing full-stack solutions with a focus on clean architecture, performance optimization, and seamless user experience.</p>
               </div>
 
 
