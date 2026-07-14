@@ -4,7 +4,7 @@ import Container from './container/Container'
 // import Das from "../assets/das.jpg"
 import { FaDownload } from "react-icons/fa6";
 import { saveAs } from 'file-saver';
-import cv from '../assets/Dipok Dev.pdf'
+import cv from '../assets/Dipok full stack.pdf'
 
 
 
