@@ -52,7 +52,7 @@ const Navber = () => {
               </a>
             </li>
           ))}
-           <div className="group   py-2 px-5 border border-[#3BB9FF] rounded-xl duration-300 ease-in-out hover:scale-105  relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
+           <div id='#contact' className="group   py-2 px-5 border border-[#3BB9FF] rounded-xl duration-300 ease-in-out hover:scale-105  relative after:absolute after:top-0 after:left-0 after:w-0 after:h-full after:bg-[#3BB9FF] after:rounded-xl after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
           
           
                       <a href="" className=" text-center  font-semibold text-lg font-main group-hover:text-[#fff] transition duration-300 relative z-10">
