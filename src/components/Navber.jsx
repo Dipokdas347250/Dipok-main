@@ -59,10 +59,6 @@ const Navber = () => {
                         Contact
                       </a>
           
-                      <a href="" className=" text-center  font-semibold text-lg font-main group-hover:text-[#fff] transition duration-300 relative z-10">
-                        Contact
-                      </a>
-          
                     </div>
           <button className=' bg-amber-500'></button>
         </ul>
